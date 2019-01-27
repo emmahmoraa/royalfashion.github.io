@@ -59,7 +59,7 @@
 			elseif($Password=$ConfirmPassword){
 					$host = "localhost";
 					$user = "root";
-					$password = "mysql";
+					$password = "";
 					$db = "royalfashion";
 					
 					//create connection 
@@ -78,7 +78,7 @@
 							
 							//enter data into the database if username does not exist
 						$sqrypost = "INSERT INTO user (FirstName, LastName, Sex, UserName, Email, MobileNo, Password)
-						VALUES('$FirstName', '$LastName', '$Sex', '$UserName', '$Email', '$MobileNo', '$Password')";
+						VALUES('$FirstName', '$LastName', '$Sex', '$UserName', '$Email', '$MobileNo', '$Password'";
 						
 						if(mysqli_query($conn, $sqrypost)){
 							Echo "<script type='text/javascript'> alert ('Registration is successful')</script>";

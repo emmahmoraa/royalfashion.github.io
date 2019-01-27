@@ -8,7 +8,7 @@
 		{
 					$host = "localhost";
 					$user = "root";
-					$password = "mysql";
+					$password = "1234";
 					$db = "RoyalFashion";
 					
 					//create connection 
@@ -18,7 +18,7 @@
 					}else {
 						
 						//check if username exists
-						$sqryselect="SELECT * FROM user WHERE UserName = '$UserName' && Password='$Password' ";
+						$sqryselect="SELECT * FROM users WHERE UserName = '$UserName' && Password='$Password' ";
 						$result = mysqli_query($conn, $sqryselect);
 							if((mysqli_num_rows($result)>0)){
 							echo "<script type='text/javascript'> alert ('You have been logged on successfully')</script>";

@@ -46,21 +46,7 @@
 						</div>
 						<div class="toplist">
 							<ul>
-								<li>
-									<div class="MyAccount">
-										<ul>
-											<li>
-												<a href="">My Account</a>
-												<ul>
-													<li><a href="Register.php">Sign Up</a></li>
-													<li><a href="login_form.php">Log In</a></li>
-													<li><a href="">My Profile</a></li>
-													<li><a href="">Log Out</a></li>
-												</ul>
-											</li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="" >My Account</a></li>
 								<li><a href="">Cart</a></li>
 								<li><a href="">Saved Items</a></li>
 								<li><a href="">Help Center</a></li>

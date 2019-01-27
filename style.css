@@ -196,27 +196,3 @@
 	padding:3px;
 	margin:5px;	
 }
-.MyAccount ul li{
-	display:block;
-	Position:relative;
-	z-index:1000;	
-}
-.MyAccount ul li ul {
-	position: absolute;
-	display:block;
-	background-color:66004d;
-	width:110px;
-	padding-top:20px;
-	display:none;
-}
-.MyAccount:hover ul li ul{
-	display:block;
-	text-align:center;
-}
-.MyAccount ul li ul li{
-	padding-top:10px;
-	padding-bottom:15px;
-}
-.MyAccount {
-	Margin-left:100px;
-}
